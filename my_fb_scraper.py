@@ -10,8 +10,8 @@ except ImportError:
 from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
 
 
-APP_id = "110003809029787"
-APP_secret = "35e790e962642fa4341993b5e4be96e6"  # DO NOT SHARE WITH ANYONE!
+APP_id = "xxxxxxxxxxxxxx"
+APP_secret = "xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"  # DO NOT SHARE WITH ANYONE!
 page_id = "cnn"
 #edit the days to weeks or months for date difference and cutoff date generation
 cutoff_date = datetime.datetime.now() - datetime.timedelta(hours=1)
